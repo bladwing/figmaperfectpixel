@@ -21,14 +21,13 @@ body {
   background: #2d2d2d;
   border: 1px solid #000000;
   border-radius: 0px 0px 16px 0px;
- 
 }
 
 .logo1 {
   position: absolute;
   width: 48px;
   height: 48px;
-  left: 16px;
+  left: 19px;
   top: 16px;
 }
 
@@ -36,7 +35,7 @@ body {
   position: absolute;
   width: 75px;
   height: 36px;
-  left: 72px;
+  left: 74px;
   top: 26px;
 }
 
@@ -50,7 +49,7 @@ body {
   position: absolute;
   width: 200px;
   height: 54px;
-  left: 80px;
+  left: 82px;
   top: 120px;
   text-decoration: none;
   background: #8a8a8a;
@@ -74,13 +73,14 @@ body {
 }
 
 .header__nav {
-  margin-top: 218px;
+  margin-top: 229px;
   margin-left: 46px;
 }
 
 .nav__item {
   margin-top: 46px;
 }
+
 .nav__item a {
   width: 81px;
   height: 30px;
@@ -96,7 +96,7 @@ body {
   opacity: 0.75;
 }
 .nav__item img {
-  margin-right: 26px;
+  margin-right: 27px;
   width: 32px;
   height: 32px;
   left: 5.42%;
@@ -110,7 +110,7 @@ body {
   display: flex;
   width: 104px;
   height: 30px;
-  left: 48px;
+  left: 50px;
   top: 568px;
   text-decoration: none;
   font-family: "Quicksand";
@@ -123,17 +123,18 @@ body {
 
 .right__arrow {
   margin-left: 155px;
-  margin-top: 10px;
+  margin-top: 4px;
   width: 18.75px;
   height: 18.75px;
 }
 
 .category___itemContainer {
-  margin-top: 110px;
+  margin-top: 102px;
+  margin-left: 2px;
 }
 
 .category__item {
-  margin-top: 36px;
+  margin-top: 27px;
 }
 .category__item a {
   width: 116px;
@@ -170,7 +171,7 @@ body {
   gap: 24px;
   width: 382px;
   height: 56px;
-  margin-left: 469px;
+  margin-left: 473px;
   margin-top: 40px;
   background: rgba(95, 95, 95, 0.35);
   border-radius: 16px;
@@ -195,8 +196,8 @@ body {
 }
 .slider__container {
   position: absolute;
-  width: 899px;
-  height: 268px;
+  width: 887px;
+  height: 276px;
   left: 37%;
   top: 147px;
   background: linear-gradient(180deg, rgba(161, 0, 237, 0.27) 0%, #da00fe 100%);
@@ -204,18 +205,18 @@ body {
   border-radius: 16px;
 }
 .slider__slide1 {
-  margin-left: 397px;
-  margin-top: -31px;
+  margin-left: 390px;
+  margin-top: -26px;
   width: 506px;
   height: 336px;
 }
 
 .stars {
   position: absolute;
-  width: 66px;
-  height: 20px;
-  left: 52px;
-  top: 26px;
+  width: 70px;
+  height: 19px;
+  left: 50px;
+  top: 25px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
@@ -224,7 +225,7 @@ body {
   width: 304px;
   height: 86px;
   left: 48px;
-  top: 42px;
+  top: 43px;
   font-family: "Quicksand";
   font-style: normal;
   font-weight: 400;
@@ -236,18 +237,18 @@ body {
 }
 
 .slide1__text {
-position: absolute;
-width: 224px;
-height: 40px;
-left: 48px;
-top: 141px;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 12px;
-line-height: 115%;
-letter-spacing: 0.04em;
-color: #FFFFFF;
+  position: absolute;
+  width: 224px;
+  height: 40px;
+  left: 49px;
+  top: 140px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 115%;
+  letter-spacing: 0.04em;
+  color: #ffffff;
 }
 
 .orderNow__button {
@@ -259,7 +260,7 @@ color: #FFFFFF;
   text-decoration: none;
   position: absolute;
   width: 166px;
-  height: 48px;
+  height: 49px;
   left: 48px;
   top: 198px;
   background: #ffffff;
@@ -276,22 +277,18 @@ color: #FFFFFF;
   position: absolute;
   width: 78px;
   height: 12px;
-  left: 390px;
-  top: 240px;  
+  left: 402px;
+  top: 248px;
 }
-
-
-
 
 .top__leftBar {
   display: flex;
-  width: 260px;
-  margin-left: 500px;
-  margin-top: 15px;
-
+  width: 276px;
+  margin-left: 497px;
+  margin-top: 3px;
 }
 
-.top__cinotification{
+.top__cinotification {
   margin-top: 20px;
   margin-left: 16px;
   width: 26px;
@@ -310,4 +307,40 @@ color: #FFFFFF;
   margin-left: 16px;
   width: 48px;
   height: 48px;
+}
+
+.Product__Title {
+  position: absolute;
+  width: 107px;
+  height: 26px;
+  left: 672px;
+  top: 481px;
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 107%;
+
+  letter-spacing: 0.04em;
+
+  color: #ffffff;
+}
+
+.product__buttonContainer {
+  position: absolute;
+  display: flex;
+  text-align: center;
+  left: 661px;
+  top: 525px;
+}
+
+.product__buttonItem {
+  text-decoration: none;
+  gap: 8px;
+  padding: 8px 24px;
+  color: #ffffff;
+  border: 1px solid #8a8a8a;
+  border-radius: 16px;
+  margin-left: 15px;
+  font-size: 10px;
 }
